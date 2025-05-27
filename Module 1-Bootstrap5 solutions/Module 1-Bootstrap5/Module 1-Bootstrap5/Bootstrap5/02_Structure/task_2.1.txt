@@ -1,0 +1,3 @@
+css/: Contains bootstrap.min.css main styles.
+js/: Contains bootstrap.bundle.min.js includes Bootstrap JS and Popper.
+icons/: Optional; contains SVG or web font icons (if using Bootstrap Icons).

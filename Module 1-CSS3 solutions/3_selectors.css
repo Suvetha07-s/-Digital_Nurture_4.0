@@ -1,0 +1,26 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Element selector */
+h2 {
+  font-size: 20px;
+}
+
+/* ID selector */
+#mainHeader {
+  background-color: lightblue;
+}
+
+/* Class selector */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Grouping selector */
+h3, p {
+  font-family: Arial, sans-serif;
+}

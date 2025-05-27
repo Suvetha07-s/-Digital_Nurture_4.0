@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html><body>
+<button onclick="getLocation()">Find Nearby Events</button>
+<p id="output"></p>
+<script>
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(
+        pos => document.getElementById('output').innerText = 
+            'Lat: ' + pos.coords.latitude + ', Lon: ' + pos.coords.longitude,
+        err => alert('Error: ' + err.message),
+        { enableHighAccuracy: true, timeout: 5000 }
+    );
+}
+</script>
+</body></html>

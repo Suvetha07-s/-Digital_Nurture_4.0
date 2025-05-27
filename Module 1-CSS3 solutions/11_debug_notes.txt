@@ -1,0 +1,4 @@
+Use Chrome DevTools:
+- Use device toolbar to test responsiveness
+- Inspect and modify CSS live in Elements panel
+- Check external CSS loading under Network tab

@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html><body>
+<video controls oncanplay="alert('Video ready to play')">
+    <source src="promo.mp4" type="video/mp4">
+</video>
+<script>
+window.onbeforeunload = () => "You have unsaved changes!";
+</script>
+</body></html>

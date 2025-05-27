@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html><body>
+<p id="demo">Check console for debugging tips.</p>
+<script>
+console.log("Script loaded.");
+function buggy() {
+    const x = 5; debugger; return x + 10;
+}
+buggy();
+</script>
+</body></html>
